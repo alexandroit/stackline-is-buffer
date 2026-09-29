@@ -1,7 +1,7 @@
 {
   "name": "@stackline/is-buffer",
   "description": "Determine if an object is a Buffer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
@@ -18,22 +18,25 @@
     "node": ">=4"
   },
   "keywords": [
+    "stackline",
+    "npm-package",
+    "is-buffer",
+    "nodejs",
     "arraybuffer",
     "browser",
-    "browser buffer",
+    "browser-buffer",
     "browserify",
     "buffer",
     "buffers",
-    "core buffer",
+    "core-buffer",
     "dataview",
     "float32array",
     "float64array",
     "int16array",
     "int32array",
     "type",
-    "typed array",
+    "typed-array",
     "uint32array",
-    "stackline",
     "maintenance-fork"
   ],
   "license": "MIT",
@@ -60,7 +63,7 @@
       "url": "https://feross.org/support"
     }
   ],
-  "homepage": "https://github.com/alexandroit/stackline-is-buffer#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/is-buffer/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
