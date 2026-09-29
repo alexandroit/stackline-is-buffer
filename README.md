@@ -4,13 +4,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@stackline/is-buffer.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/is-buffer)
 [![license](https://img.shields.io/npm/l/@stackline/is-buffer.svg?style=flat-square)](https://github.com/alexandroit/stackline-is-buffer)
-[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-is-buffer-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-is-buffer)
+[![GitHub repository](https://img.shields.io/badge/GitHub-repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-is-buffer)
 [![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/is-buffer/)
 [![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
 **[Documentation](https://alexandro.net/docs/vanilla/is-buffer/)** | **[npm](https://www.npmjs.com/package/@stackline/is-buffer)** | **[Issues](https://github.com/alexandroit/stackline-is-buffer/issues)** | **[Repository](https://github.com/alexandroit/stackline-is-buffer)**
 
-**Current package version:** `1.0.1`
+**Current package version:** `1.0.2`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/is-buffer@1.0.1` |
+| Package | `@stackline/is-buffer@1.0.2` |
 | API target | `is-buffer@2.0.5` |
 | Supported Node.js | `>=4` |
 | License | `MIT` |
