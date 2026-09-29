@@ -1,0 +1,38 @@
+{
+  "repository": "alexandroit/stackline-is-buffer",
+  "packages": [
+    {
+      "name": "@stackline/is-buffer",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "is-buffer",
+        "nodejs",
+        "arraybuffer",
+        "browser",
+        "browser-buffer",
+        "browserify",
+        "buffer",
+        "buffers",
+        "core-buffer",
+        "dataview",
+        "float32array",
+        "float64array",
+        "int16array",
+        "int32array",
+        "type",
+        "typed-array",
+        "uint32array",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/is-buffer/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/is-buffer/-/is-buffer-1.0.0.tgz",
+      "baselineIntegrity": "sha512-oVnkPOTD4mZ+jjxPPhN6pfRIvyK35rMc4wFthDr2NOn9AqU7IOE+z6ZPXj9zJ9j3sL6XNrHzVhgkBnwFmpghqQ==",
+      "expectedSha512": "58a064efad210a1fbc65b993065e6369fd50e0674b258e0af0054bf0b414340c977098495cde77c3332394fc309b762f98f4cefee89326c084a12d9370011fed",
+      "tag": "docs-stackline-is-buffer-v1.0.1"
+    }
+  ]
+}
