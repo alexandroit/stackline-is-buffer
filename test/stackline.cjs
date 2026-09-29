@@ -1,0 +1,18 @@
+'use strict';
+var assert = require('assert');
+var vm = require('vm');
+var fs = require('fs');
+var path = require('path');
+var root = process.env.STACKLINE_TEST_PACKAGE || path.resolve(__dirname, '..');
+var isBuffer = require(root);
+var values = [undefined, null, '', true, false, 0, 1, {}, [], function () {}, new Uint8Array(4), new ArrayBuffer(4), new DataView(new ArrayBuffer(4)), Object.create(null)];
+values.forEach(function (value) { assert.strictEqual(isBuffer(value), false); });
+var bytes = typeof Buffer.from === 'function' ? Buffer.from([1, 2]) : new Buffer([1, 2]);
+assert.strictEqual(isBuffer(bytes), true);
+assert.strictEqual(isBuffer(bytes.slice(1)), true);
+var sandbox = {module: {exports: {}}};
+vm.runInNewContext(fs.readFileSync(path.join(root, 'index.js'), 'utf8'), sandbox);
+assert.strictEqual(sandbox.module.exports(bytes), true);
+assert.strictEqual(sandbox.module.exports(new Uint8Array(2)), false);
+assert.strictEqual(isBuffer({constructor: {isBuffer: null}}), false);
+console.log('Buffer, non-buffer, cross-context and browser-without-global-Buffer cases passed.');

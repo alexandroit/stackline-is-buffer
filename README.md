@@ -1,3 +1,19 @@
+# @stackline/is-buffer
+
+Independent maintenance fork of `is-buffer@2.0.5`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+
+```sh
+npm install @stackline/is-buffer
+# Preserve existing imports with an npm alias:
+npm install is-buffer@npm:@stackline/is-buffer@1.0.0
+```
+
+See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+
+Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-is-buffer/issues) · [npm](https://www.npmjs.com/package/@stackline/is-buffer).
+
+## Upstream documentation
+
 # is-buffer [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
 [travis-image]: https://img.shields.io/travis/feross/is-buffer/master.svg
